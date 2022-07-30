@@ -1,0 +1,151 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+
+.flex {
+    width: 75%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.879);
+    border-radius: 20px;
+    color: white;
+}
+
+.fast-player {
+    width: 50%;
+}
+
+.fast-player img {
+    width: 100%;
+}
+
+a {
+    color: white;
+    background-color: brown;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.info {
+    margin: 75px;
+
+}
+
+.grater {
+    font-size: 60px;
+}
+
+.value {
+    margin-top: 10px;
+}
+
+.red {
+    margin-top: 30px;
+}
+
+/* second-part */
+.middle {}
+
+.match {
+    display: grid;
+    grid-column: 1 1fr;
+}
+
+.match button {
+
+    color: red;
+}
+
+.half-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.half {
+    width: 75%;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.icons {
+    display: flex;
+    column-gap: 15px;
+}
+
+.player img {
+    padding-bottom: 5px;
+    width: 250px;
+    height: 130px;
+}
+
+.player {
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(241, 240, 238, 0.636);
+    width: 250px;
+
+}
+
+.box-match,
+.m {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.box-match {
+    display: flex;
+
+    flex-direction: column;
+    height: 190px;
+    width: 190px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.color {
+    background-color: red;
+    color: white;
+}
+
+.section-flex {
+    display: flex;
+}
+
+.full {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+}
+
+.Goal {
+    padding-top: 150px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+hr {
+    width: 1300px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,62 @@
+main {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.flex {
+    width: 70%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.879);
+    border-radius: 20px;
+    color: white;
+}
+
+.fast-player {
+    width: 50%;
+}
+
+.fast-player img {
+    width: 100%;
+}
+
+a {
+    color: white;
+    background-color: brown;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.info {
+    margin: 75px;
+
+}
+
+.grater {
+    font-size: 60px;
+}
+
+.value {
+    margin-top: 10px;
+}
+
+.red {
+    margin-top: 30px;
+}
+
+/* second-part */
+.middle {}
+
+.match {
+    display: grid;
+    grid-column: 1 1fr;
+}
+
+.match button {
+
+    color: red;
+}
